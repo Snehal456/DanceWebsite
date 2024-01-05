@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    text-align: center;
+    margin:12px 0px; 
+   
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    min-height: 70vh;
+    margin: 44px;
+}
+
+.container h1{
+    font-weight: bold;
+}
+
+.myinput{
+    width: 550px;
+    padding: 9px;
+    margin: 9px;
+    border: 2px solid #16163f;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+   
+
+}
+.btn{
+    padding: 12px 16px;
+    font-size: 15px;
+    margin: 24px;
+    border: 2px solid rgb(30, 30, 78);
+    border-radius: 13px;
+    width: 109px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    background-color: #16163f;
+}
+.btn:hover{
+    color: gold;
+    font-weight: bold;
+}

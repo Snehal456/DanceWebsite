@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#navbar{
+    background-color: #1d1043;;
+    padding: 10px 24px;
+    
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 7px;
+    font-size: 20px;
+    margin-right: 188px;
+}
+
+#logo img{
+    height: 52px;
+    width: 117px;
+    /* filter: invert(1); */
+
+
+}
+
+#navbar li {
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 15px 50px;
+    color: white;
+    font-weight:bold;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar li a:hover{
+    color: gold;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#introsection{
+    background: url('bg.jpg') no-repeat center center/cover;
+    /* z-index: -1; */
+    opacity: 0.9;
+    height: 426px;
+    background-color: bisque;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    text-decoration:darkgoldenrod;
+
+}
+
+#small{
+    font-size: 26px;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#ourmission{
+    margin: auto;
+    width: 67%;
+    height: 360px;
+    display: block;
+    background-color: white;
+    color: black;
+}
+#ourmission h2{
+    text-align: center;
+    padding: 15px ;
+    font-size: 35px;
+ 
+}
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 19px;
+    width: 300px;
+    height: 240px;
+    margin: 13px 18px;
+    padding: 18px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-size: 24px ;
+
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img img{
+    height: 122px;
+    width: 97px;
+    padding: 0pc 9px;
+}
+
+.card-content {
+    padding: 0px 9px;
+}
+.card-content p{
+    font-size: 18px;
+}
+
+#sponsorsection{
+    height: 300px;
+    background-color:rgb(244 224 228);;
+    color: black;
+}
+
+#sponsorsection h2{
+    text-align: center;
+    padding: 22px ;
+    font-size: 35px;
+}
+
+#sponsors{
+    height: 200px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* #sponsors img{
+    height: 171px;
+    width: 235px;
+    padding: 23px 26px;
+} */
+
+.sponser_image{
+    height: 171px;
+    width: 235px;
+    padding: 23px 26px;
+}
+
+
+
+#footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    height: 50px;
+    background-color: rgb(7, 7, 7);
+}
